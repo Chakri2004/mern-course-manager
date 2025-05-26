@@ -1,0 +1,42 @@
+Course Management System using MERN Stack
+PROJECT DOCUMENTATION
+Project Title: Course Management System using MERN Stack
+Submitted by: Sri Chakradhar Reddy
+Registration No: 22BCE8286
+Course: Full Stack Development
+VIT-AP University
+Course Management System using MERN Stack
+1. Abstract
+This document describes the Course Management System built using the MERN Stack. It provides
+functionality to add, view, and manage course details with a seamless frontend-backend integration.
+2. Technologies Used
+1. React.js - Frontend User Interface
+2. Node.js & Express.js - Backend API Layer
+3. MongoDB Memory Server - Temporary In-Memory Database
+4. Axios - HTTP Client for connecting frontend and backend
+3. Project Objective
+The aim of the project is to develop a lightweight course management portal for adding and listing course
+information, using modern web technologies. It serves as a hands-on learning experience for working with the
+MERN stack.
+4. Backend Architecture
+The backend is developed using Express.js. It provides two endpoints:
+- GET /courses: Fetch all courses
+- POST /courses: Add a new course
+Data is stored temporarily in memory using MongoDB Memory Server.
+5. Frontend Architecture
+The frontend is built using React. It contains a form for course input and a dynamic course list. Axios is used
+to handle HTTP requests to the backend.
+6. Key Features
+- Add new course with title and description
+- Display list of all courses
+Course Management System using MERN Stack
+- State-driven UI updates
+- API-driven architecture
+7. Dataset
+No external dataset was used. All course entries are stored in-memory for testing and demonstration
+purposes. The course data includes fields like 'title' and 'description'.
+8. Screenshots (Placeholder)
+Add screenshots of the frontend form and course list view here.
+9. Conclusion
+The Course Management System project demonstrates a working full-stack web application using the MERN
+architecture. It is self-contained and deployable on any local environment without external database setup.
