@@ -1,0 +1,15 @@
+# 📊 Dataset Used – In-Memory MongoDB
+
+This project uses **MongoDB Memory Server**, which allows temporary data storage during runtime.
+
+## Why?
+
+- No need to install MongoDB or use Atlas
+- Ideal for hackathons, demos, and local dev
+- Works entirely in-memory and resets on server restart
+
+## Schema
+
+Each course contains:
+- `title`: String
+- `description`: String
