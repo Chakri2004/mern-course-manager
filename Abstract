@@ -1,0 +1,29 @@
+# 📝 Project Abstraction – Course Management System (MERN Stack)
+
+## 📌 Objective
+
+To develop a simple, full-stack Course Management System where users can:
+- Add course details (title & description)
+- View all added courses
+- Interact via a clean React frontend
+
+## 📦 Stack Used
+
+- MongoDB (in-memory memory-server for lightweight DB)
+- Express.js for backend API
+- React.js for frontend UI
+- Node.js as server environment
+- Axios for HTTP requests
+
+## 🧠 Why this project?
+
+- Demonstrates end-to-end MERN integration
+- No external database dependency (MongoDB memory server)
+- Ideal for learning CRUD operations and full stack structure
+
+## ⚙️ Core Features
+
+- POST /courses → Add new course
+- GET /courses → Fetch all courses
+- React-based interactive UI
+- State-driven rendering & live updates
